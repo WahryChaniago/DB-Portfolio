@@ -9,22 +9,32 @@
   <link rel="icon" type="image/png" href="./laptop-code-solid.png">
 
   <style>
-    body {
+    html, body {
       margin: 0;
       padding: 0;
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
       overflow: hidden;
-      /* Biar ga ada scrollbar */
-      background-color: #0d1117;
-      /* Warna background gelap biar pas loading ga silau */
+      position: fixed;
+      inset: 0;
+      background-color: #090d16;
     }
 
     iframe {
       border: none;
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
       display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
   </style>
+</head>
 </head>
 
 <body>
